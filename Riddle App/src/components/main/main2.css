@@ -1,0 +1,95 @@
+
+.main2-content {
+    font-family: 'Martel', serif;
+    /* padding: 30px 50px; */
+    /* padding-top: 30px; */
+    /* padding-top: 100px; */
+    margin: 70px 30px;
+}
+
+.main2-content h1 {
+    font-size: 34px;
+}
+
+.main2-content p {
+    color: #919599;
+    word-spacing: 5px;
+}
+
+.main2-inside-container {
+    display: grid;
+    justify-content: center;
+    /* margin: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+
+
+}
+
+@media (min-width: 600px) {
+    .main2-inside-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .main2-inside-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.main2-inside-container .box {
+    background-color: white;
+    height: 400px;
+    width: 360px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main2-inside-container .box:hover {
+    box-shadow: 0 0 15px 0 rgba(28, 208, 151, 0.934);
+}
+
+.main2-inside-container .box .img1 {
+    background-image: url('bikeheading.jpg');
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.main2-inside-container .box .img2 {
+    background-image: url('bikeheading.jpg');
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.main2-inside-container .box .img3 {
+    background-image: url('bikeheading.jpg');
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.main2-inside-container .box .box-content {
+    font-family: 'Nunito', sans-serif;
+    padding: 30px 20px;
+}
+
+.main2-inside-container .box .box-content h4 {
+    font-size: 19px;
+}
+
+.main2-inside-container .box .box-content p {
+    padding: 30px 20px;
+    word-spacing: 5px;
+}
+
+
+

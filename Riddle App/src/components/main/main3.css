@@ -1,0 +1,50 @@
+.storeapp {
+    margin: 50px;
+}
+
+.storeapp h2 {
+    font-family: 'Martel', serif;
+    font-size: 32px;
+    word-spacing: 5px;
+}
+
+.storeapp p {
+    font-family: 'Martel', serif;
+    color: #919599;
+    word-spacing: 2px;
+}
+
+.storeapp .riddle-app ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-top: 40px;
+}
+
+.storeapp .riddle-app ul li img {
+    height: 50px;
+}
+
+.storeapp .riddle-app ul li img:hover {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(28, 208, 151, 0.934));
+    filter: drop-shadow(0px 0px 10px rgba(28, 208, 151, 0.934));
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:790px) {
+    .storeapp {
+        margin: 30px;
+    }
+    .storeapp h2 {
+        font-size: 19px;
+    }
+    .storeapp .riddle-app ul {
+        gap: 30px;
+    }
+    .storeapp .riddle-app ul li img {
+        height: 30px;
+    }
+}
